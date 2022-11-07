@@ -15,23 +15,28 @@ public class LionAlex extends Lion {
         }
 
     }
+
     @Override
     public int getKittens() {
         return 0;
     }
+
     @Override
-    public boolean doesHaveMane (){
-        return hasMane ;
+    public boolean doesHaveMane() {
+        return hasMane;
     }
+
     @Override
     public List<String> getFood() throws Exception {
         return super.getFood();
     }
-    public List<String> getFriends(){
-        return List.of("Зебра Марти"," Бегемотиха Глория","Жираф Мелман");
+
+    public List<String> getFriends() {
+        return List.of("Зебра Марти", " Бегемотиха Глория", "Жираф Мелман");
     }
-    public String getPlaceOfLiving(){
+
+    public String getPlaceOfLiving() {
         placeOfLiving = "Нью-Йорский зоопарк";
-        return placeOfLiving ;
+        return placeOfLiving;
     }
 }
